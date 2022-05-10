@@ -1,0 +1,29 @@
+{
+  "name": "xxx",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xiaochen.gao <xiaochen.gao@nio.com>",
+  "homepage": "https://github.com/gxcsoccer/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/xxx.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxcsoccer/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/gxcsoccer/lerna-demo/issues"
+  }
+}
